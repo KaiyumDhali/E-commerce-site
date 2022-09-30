@@ -1,0 +1,72 @@
+body{
+background-color: #96D4D4;
+}
+
+.signup-form{
+	margin-left: 36%;
+	width: 100%;
+	margin-top: 12%;
+
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-width: 5px;
+  border-radius: 10px;
+}
+.signup-form h3{
+margin-left: 12%;
+color: green;
+}
+input[type=password]{
+	width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-width: 5px;
+}
+.checkbox{
+color: blue;
+}
+
+button[type=submit]{
+	width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-left: 10%;
+  color: #F48225
+
+
+}
+button{
+background-color: #EBF8A4;
+border-radius: 10px;
+}
+.login-form{
+	margin-left: 36%;
+	width: 100%;
+	margin-top: 12%;
+
+}
+.login-form h3{
+margin-left: 12%;
+color: green;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+}
+
+.field-height{
+    height: 62px;
+}
